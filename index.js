@@ -16,7 +16,7 @@ fetch("http://localhost:5000/")
         header.setAttribute("style", `background:${headerData.background};width:${headerData.width};height:${headerData.height};display:flex;flex-direction:row;align-items:center;justify-content:space-between;`)
         header.innerHTML = `<div class="company">${Img + CompanyName}</div>` + `<div style="display:flex;flex-direction:row;align-items:center;justify-contents:center;">${headerNav}</div>`
         body.appendChild(header)
-        let sections = ""
+        let sections = "" 
         data.sections.forEach((section) => {
             // console.log(section.action.text)
             sections +=
